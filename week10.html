@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+</head>
+<body>
+
+    <div class="container mt-5">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name </th>
+              <th scope="col">Phone Number </th>
+              <th scope="col"> Email </th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <tr>
+              <th scope="row">1</th>
+              <td>John Doe  </td>
+              <td>555-555-5555</td>
+              <td>johndoe@example</td>
+            </tr>
+          </tbody>
+        </table>
+    
+        <form id="add-row-form">
+          <div class="form-group">
+            <label for="col1-input">Name </label>
+            <input type="text" class="form-control" id="col1-input" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="col2-input"> Phone Number </label>
+            <input type="text" class="form-control" id="col2-input" placeholder="555-555-5555">
+          </div>
+          <div class="form-group">
+            <label for="col3-input"> Email </label>
+            <input type="text" class="form-control" id="col3-input" placeholder="johndoe@example.com">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+</body>
+<script src="week10.js"> </script>
+</html>
